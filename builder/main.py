@@ -30,7 +30,7 @@ def main():
     logging.getLogger("rich")
     console = Console()
 
-    console.print(pyfiglet.figlet_format("ICE", font="graffiti"),
+    console.print(pyfiglet.figlet_format("ICE", font="Big Money-se"),
                   justify="center", highlight=False, style="magenta", overflow="ignore")
     console.print(f"Easy to use and open-source stealer.\nStars: {stars} | Forks: {forks}",
                   justify="center", highlight=False, style="bold magenta", overflow="ignore")
